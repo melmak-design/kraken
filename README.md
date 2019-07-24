@@ -1,556 +1,176 @@
-# Mapache free theme for [Ghost](https://github.com/tryghost/ghost/)
+<p align="center">
+  <a href="https://mdbootstrap.com/docs/jquery/getting-started/download/">
+    <img src="https://mdbootstrap.com/img/Marketing/general/logo/medium/mdb-r.png">
+  </a>
+</p>
 
-[![Ghost version](https://img.shields.io/badge/Ghost-2.x-brightgreen.svg)](https://github.com/TryGhost/Ghost)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/godofredoninja)
+<h1 align="center">Material Design for Bootstrap 4</h1>
 
-> Minimalist Material Design and Elegant theme.
+<p align="center">
+  <b>400+</b> material UI elements, <b>600+</b> material icons, <b>74</b> CSS animations, SASS files, templates, tutorials and many more. Free for personal and commercial use. Available jQuery, Angular, React and Vue versions
+</p>
+<p align="center">
+  Trusted by <b>1 000 000+</b> developers & designers. Used by such a companies like Nike, Samsung, Amazon, Ikea, Sony and NASA.
+</p>
 
-Hi. I created this theme for ghost especially for you.
-It is available for free so you can use on your site. It is strictly forbidden to use it for commercial use. If you have any suggestions to improve the theme,  you can send me a tweet [@GodoFredoNinja](https://goo.gl/y3aivK)
+<p align="center">	
+  <a href="https://npmcharts.com/compare/mdbootstrap?minimal=true"><img src="https://img.shields.io/npm/dm/mdbootstrap.svg" alt="Downloads"></a>
+  <a href="https://github.com/mdbootstrap/bootstrap-material-design/blob/master/License.pdf"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>	
+  <a href="https://cdnjs.com/libraries/mdbootstrap"><img src="https://img.shields.io/cdnjs/v/mdbootstrap.svg" alt="cdnjs"></a>	
+  <a href="https://badge.fury.io/js/mdbootstrap"><img src="https://badge.fury.io/js/mdbootstrap.svg" alt="npm"></a>	
+  <a href="https://twitter.com/intent/tweet/?text=Thanks+@mdbootstrap+for+creating+amazing+and+free+Material+Design+for+Bootstrap+4+UI+KIT%20https://mdbootstrap.com/docs/jquery/&hashtags=javascript,code,webdesign,bootstrap"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"></a>	
+</p>
 
-## 🙏 Please, help me with a small donation [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4H53Q4RTPSFQW&source=url) or [PayPal](https://www.paypal.me/godofredoninja). It'll help motivate me to update the theme with many improvements
+<p align="center">
+  <a href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">
+    <img width="600" src="https://mdbootstrap.com/img/Marketing/products/jquery/mdb-free.jpg" alt="logo">
+  </a>
+</p>
 
-[![donate](./donate.gif)](https://www.paypal.me/godofredoninja)
+|         | Highlights  |                         |
+|-----------------------------------------|------------------|------------------------------|
+|💎 |Thanks to MDB you can take advantage of all feature of latest version of Bootstrap 4.⠀⠀⠀⠀⠀ | ✔️ |
+|🎓 |We care about the development of our users. We have prepared numerous tutorials, which allow you to learn how to use MDB as well as other technologies.⠀⠀⠀⠀⠀⠀⠀⠀⠀ | ✔️ |
+|📱 |It doesn't matter whether your project will be displayed on a desktop, laptop, tablet or mobile phone. MDB looks great on every type of screen.| ✔️ |
+|🗺️ |Need inspiration? Use one of our predefined templates for free.⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀ | ✔️| 
+|💽 |5 minutes, a few clicks and... done! You will be surprised at how easy it is.⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀ ⠀⠀⠀| ✔️ |
+|💄 |Using MDB is straightforward and pleasant. Our flexible components allow deep customization. You will easily be able to adjust each component to suit your needs.| ✔️ |
+|🆓 |Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.| ✔️ |
+|📑 |We put detailed user-friendly documentation at your disposal. It will help you to implement your ideas easily.| ✔️ |
 
-![mapache theme for ghost](./screenshot.png)
+________
 
-## Featured
-
-- Support for different [languages](http://themes.ghost.org/docs/i18n#section-how-to-add-any-language) (en - es - de - ko - fr)
-- 404 error page (emoticons — last 6 articles)
-- Page subscribe
-- Pagination Infinite Scroll
-- Instagram Feed in footer of Post
-- Optional menu at the footer of the page
-- [AMP](https://github.com/godofredoninja/Hodor-AMP-Template-for-Ghost) Template (Accelerated Mobile Pages)
-- Follow on Social Media
-- Related Articles (6 articles)
-- Different templates for the Home Page
-- Different templates for publishing posts
-- Page Newsletter (Mailchimp)
-- Page Podcast
-- Page Tag
-- 5 featured articles in the sidebar (Home - Tag - Author)
-- 5 lates articles in the sidebar (post)
-- Tag Cloud in the sidebar
-- Previous and next articles buttons
-- Support for comments (Disqus)
-- Support for counter comments (Disqus)
-- Buttons to share the article (Facebook - Twitter - Reddit - Linkedin - Pinterest)
-- Sticky content in the sidebar
-- YouTube, Vimeo, kickstarter, dailymotion => Responsive
-- Lazy image loading for better performance only in backgrounds
-- Code syntax [Prismjs](http://prismjs.com/index.html#languages-list) Supported all syntax.
 
 ## Table of Contents
 
-- [Web Browser Support for Mapache](#web-browser-support-for-mapache)
-- [Ghost Settings](#ghost-settings)
-- [Mapache Settings](#mapache-settings)
-  - [1. Social Media](#1-social-media)
-  - [2. Footer Menu](#2-footer-menu)
-  - [3. YouTube Subscribe Button](#3-youtube-subscribe-button)
-  - [4. Instagram](#4-instagram)
-  - [5. Comments](#5-comments)
-  - [6. Search](#6-search)
-- [Theme Translation](#theme-translation)
-- [AMP](#amp)
-- [Home Page](#home-page)
-- [Post Format](#post-format)
-- [Tags Page](#tags-page)
-- [Newsletter Page](#newsletter-page)
-- [Podcast Page](#podcast-page)
-- [Ads](#ads)
-- [Change Theme Color](#change-theme-color)
-- [PrismJS code syntax](#prismjs-code-syntax)
+* [Versions](#versions) 
+* [Demo](#demo)
+* [Quick Start](#quick-start)
+* [How to install](#how-to-install)
+* [Additional tutorials](#additional-tutorials)
+* [MDBootstrap on CDNJS](#mdbootstrap-on-cdnjs)
+* [Documentation](#documentation)
+* [Supported Browsers](#supported-browsers)
+* [Contributing](#contributing)
+* [Social Media](#social-media)
+* [Useful Links](#useful-links)
 
-## Web Browser Support for mapache
+________
 
-mapache supports the following web [browsers](https://caniuse.com/#search=CSS%20Variables)
 
-## Ghost Settings
+# Versions
 
-Enable the following checkboxes on the Labs page in the Ghost admin panel.
+[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/angular.png"/>](https://mdbootstrap.com/docs/angular/)[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/react.png"/>](https://mdbootstrap.com/docs/react/)[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/vue.png"/>](https://mdbootstrap.com/docs/vue/)
 
-![ghost labs](./documentation/ghost-settings.jpg)
+# Demo
 
-## Mapache Settings
+ - [Main demo](https://mdbootstrap.com/docs/jquery/components/demo/)
 
-> You don't have to add all the Simply configurations. only the ones you need
 
-### 1. Social Media Links
+# Quick Start
 
-> Facebook and Twitter is not necessary because I use them from the ghost settings
+ - [Written Tutorial](https://mdbootstrap.com/education/bootstrap/quick-start/)
 
-Add the Social Links only for the services you want to appear in the header section of your website. Pay attention as enabling too many services will cause menu problems.
+ - [Video Tutorial](https://www.youtube.com/watch?v=cXTThxoywNQ&t=9s)
 
-➡️ `Dashboard -> Code injection -> Site Footer`
 
-```html
-<script>
-var followSocialMedia = {
-  'youtube': ['YOUR_URL','YOUR_TITLE'],
-  'instagram': ['YOUR_URL','YOUR_TITLE'],
-  'snapchat': ['YOUR_URL','YOUR_TITLE'],
-  'dribbble': ['YOUR_URL','YOUR_TITLE'],
-  'github': ['YOUR_URL','YOUR_TITLE'],
-  'linkedin': ['YOUR_URL','YOUR_TITLE'],
-  'spotify': ['YOUR_URL','YOUR_TITLE'],
-  'codepen': ['YOUR_URL','YOUR_TITLE'],
-  'behance': ['YOUR_URL','YOUR_TITLE'],
-  'flickr': ['YOUR_URL','YOUR_TITLE'],
-  'pinterest': ['YOUR_URL','YOUR_TITLE'],
-  'telegram': ['YOUR_URL','YOUR_TITLE'],
-  'vimeo': ['YOUR_URL','YOUR_TITLE'],
-  'twitch': ['YOUR_URL','YOUR_TITLE'],
-  'vk': ['YOUR_URL','YOUR_TITLE'],
-  'slack': ['YOUR_URL','YOUR_TITLE'],
-  'tumblr': ['YOUR_URL','YOUR_TITLE'],
-  'discord': ['YOUR_URL','YOUR_TITLE'],
-  'rss': ['YOUR_URL','YOUR_TITLE'],
-};
-</script>
+# How to install
+
+You can install MDBootstrap using NPM:
+
 ```
-### 2. Footer Menu
-
-You can add an additional menu bar at the footer of the page
-
-➡️ `Dashboard -> Code injection -> Site Footer`
-
-```html
-<script>
-var footerLinks = {
-  'Menu 1': 'YOUR_URL',
-  'Menu 2': 'YOUR_URL',
-  'Menu 3': 'YOUR_URL',
-};
-</script>
-```
-### 3. YouTube Subscribe Button
-
-Subscription Button of YouTube in Video Post Format. Add the Channel ID which can be found here [YouTube Advanced Settings](https://www.youtube.com/account_advanced)
-
-➡️ `Dashboard -> Code injection -> Site Footer`
-
-```html
-<script>
-var youtubeChannelID = 'YOUR_CHANNEL_ID';
-</script>
+npm install mdbootstrap
 ```
 
-### 4. Instagram
-
-I get the last 10 images then show 6 randomly It will only be shown in the footer of the Post
-
-First, you will need to get your account `userName` and `userId` and `accessToken` from the following URLs:
-
-- User ID: [codeofaninja.com/tools/find-instagram-user-id](https://codeofaninja.com/tools/find-instagram-user-id)
-- Access Token: [instagram.pixelunion.net](http://instagram.pixelunion.net/)
-
-➡️ `Dashboard -> Code injection -> Site Footer`
-
-```html
-<script>
-var instagramFeed  = {
-  token: 'Token_app_instagram',
-  userId: 'User_ID',
-  userName: 'User_Name',
-};
-</script>
-```
-
-### 5. Comments
-
-Mapache supports Disqus comments as well as comment counting
+# Additional tutorials
 
-— First, you will need to get your account `disqusShortName`
+ - [MDB - Bootstrap tutorial](https://mdbootstrap.com/education/bootstrap/)
 
-➡️ `Dashboard -> Code injection -> Site Footer`
+ - [MDB - WordPress tutorial](https://mdbootstrap.com/education/wordpress/)
 
-```html
-<script>
-var disqusShortName = 'YOUR_DISQUS_SHORTCUT_HERE';
-</script>
-```
 
-### 6. Search
+# MDBootstrap on CDNJS:
 
-> The default search engine will only search the titles of the post
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />`
 
-**Setup a Custom integration**
+`<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>`
 
-1. Go in your Ghost's `dashboard -> Integrations -> Add custom integration`
-2. Set a name: `GodoFredo Themes Search`
-3. Get the Content API Key and replace the demo key with this one
-4. Get the admin domain. This will be different in some cases
+# Documentation
 
-➡️ `Dashboard -> Code injection -> Site Footer`
+ - [Huge, detailed documentation available online](https://mdbootstrap.com/)
 
-```html
-<script>
-  var searchSettings = {
-    key: 'ADD_YOUR_API_KEY',
-    url: 'https://demo.ghost.io',
-  };
-</script>
-```
 
-OR - Adding parameters to the search
+# Supported browsers
 
-```html
-<script>
-var searchSettings = {
-  key: 'ADD_YOUR_API_KEY',
-  url: 'https://demo.ghost.io',
-  /* This is optional */
-  options: {
-    keys: [
-        'title',
-    ],
-    limit: 10,
-  },
-  /* This is optional to perform filtering of the ghost api */
-  api: {
-    resource: 'posts',
-    parameters: {
-      limit: 'all',
-      fields: ['title', 'slug'],
-      filter: '',
-      include: '',
-      order: '',
-      formats: '',
-    },
-  },
-}
-</script>
-```
+MDBootstrap supports the **latest, stable releases** of all major browsers and platforms.
 
-The search engine that includes Mapache is very powerful, supports almost all languages and you can customize to your liking.
+Alternative browsers which use the latest version of WebKit, Blink, or Gecko, whether directly or via the platform’s web view API, are not explicitly supported. However, MDBootstrap should (in most cases) display and function correctly in these browsers as well.
 
-Read more about the search engine [Read More](https://github.com/HauntedThemes/ghost-search)
+### Mobile devices
 
-### 7. Twitter widget in the sidebar
+Generally speaking, MDBootstrap supports the latest versions of each major platform’s default browsers. Note that proxy browsers (such as Opera Mini, Opera Mobile’s Turbo mode, UC Browser Mini, Amazon Silk) are not supported.
 
-```html
-<script>
-var twitterFeed = {
-  name: 'YOUR_TWITTER_USER_NAME',
-  number: 2,
-};
-</script>
-```
+|  | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome  | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox  |  [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari   | Android Browser & WebView  |                  [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Miscrosoft Edge                      |
+|:--------------------:|:---------------------------:|:----------------------------:|:----------------------------:|:----------------------------:|:-------------------------------------------------------------------------:|
+|⠀Android⠀|⠀Supported⠀|⠀Supported⠀|⠀N/A⠀| Android v5.0+ supported | Supported |
+|⠀iOS⠀|⠀Supported⠀|⠀Supported⠀|⠀Supported | N/A | Supported |
+|⠀Windows 10 Mobile⠀|⠀N/A⠀|⠀N/A⠀|⠀N/A⠀| N/A⠀| Supported |
 
----
+### Desktop browsers
 
-## Theme Translation
+Similarly, the latest versions of most desktop browsers are supported.
 
-**Mapache supports:**
+|  | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome  |  [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox  | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Internet Explorer  |  [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Internet Explorer / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br> Edge  | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera                  |       [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari       |
+|:--------------------:|:-----------------------------:|:------------------------------:|:------------------------------:|:----------------------------:|:-------------------------------------------------------------------------:|:------------------------------:|
+| ⠀Mac ⠀|⠀Supported ⠀| Supported | N/A | N/A |⠀Supported⠀|⠀Supported⠀⠀|
+|⠀⠀Windows  |Supported | Supported | N/A |⠀Supported⠀|⠀Supported⠀|Not supported⠀|
 
-- `en` — English default language
-- `es` — Spanish
-- `de` — German - By [Frederik Niedernolte](https://github.com/MaluNoPeleke)
-- `ko` — Korean - By [SHGroup](https://github.com/sunghun7511)
-- `fr` — French - By [Letroll](https://github.com/letroll)
-- `pl` — Polish - By [kacperduras](https://github.com/kacperduras)
 
-![Publication Language for ghost](./documentation/language.jpg)
+# Contributing
 
-if you want to have in another language you just have to copy `locales>en.json` and rename the file then translate to your favorite language:
+Please read [CONTRIBUTING.md](https://github.com/mdbootstrap/bootstrap-material-design/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-Just enter the [language/locale tag](https://www.w3schools.com/tags/ref_language_codes.asp) of the files to use (e.g.: `fr.json` for French, `zh.json` for Chinese, `ja.json` for Japanese)
 
-## AMP
+### Support MDB developers
+- Star our GitHub repo
+- Create pull requests, submit bugs, suggest new features or documentation updates
+- Follow us on [Twitter](https://twitter.com/mdbootstrap)
+- Like our page on [Facebook](https://www.facebook.com/mdbootstrap)
 
-— *Mapache has a nice page for **AMP***
+A big ❤️ **thank you to all our users** ❤️ who are working with us to improve the software. We wouldn't be where we are without you. 
 
-- Navigation
-- links to followers in social media
-- Tags
-- Related Articles (6 articles)
-- Buttons to share the article (Facebook - Twitter - Whatsapp)
+________
 
-To customize the AMP page [read here](https://github.com/godofredoninja/Hodor-AMP-Ghost)
+# Useful Links
 
-## Home Page
+- [Getting Started](https://mdbootstrap.com/docs/jquery/getting-started/download/)
 
-> Mapache - come with 2 Home page with different layout options
+- [5 min quick start](https://mdbootstrap.com/education/bootstrap/quick-start/)
 
-1. Masonry (Default)
+- [Freebies](https://mdbootstrap.com/freebies/)
 
-2. **Personal Blog**
-- Rename or delete the file `home.hbs`
-- Edit the file `package.json` and change the number of post per page to 10.
+- [Premium Templates](https://mdbootstrap.com/templates/)
 
-```json
-"config": {
-  "posts_per_page": 10
-}
-```
-— Adding additional configuration for personal blog `Settings -> Code Injection -> Blog Footer`
+________
 
-```html
-<script>
-  /* 01. Title for home - optional */
-  var homeTitle = 'Hola este es mi Titulo';
 
-  /* 02. Home BTN <SUBSCRIBE> - optional */
-  var homeBtn = {
-    title: 'Add_TITLE',
-    url: 'Add_URL',
-  };
-</script>
-```
+# Social Media
 
-![Home Layout](./documentation/home-layout.jpg)
+ - [Twitter](https://twitter.com/MDBootstrap)
 
-## Post Format
+ - [Facebook](https://www.facebook.com/mdbootstrap) 
 
- Mapache has different templates for post formats. I will mention some of them.
+ - [Pinterest](https://pl.pinterest.com/mdbootstrap)
 
- ![Post Format](./documentation/post-format.jpg)
+ - [Dribbble](https://dribbble.com/mdbootstrap)
 
- 1. **Post Full Header** — It will have the full title of the post and will include the sidebar.
+ - [LinkedIn](https://www.linkedin.com/company/material-design-for-bootstrap)
+ 
+ - [YouTube](https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA)
 
- 2. **Post Image** — This template will have a very large featured image and the header background will also be transparent and include the sidebar. optional you can add the internal tag `#image` in your post so that you can see the image icon in the instories.
 
- 3. **Post Image Single** — It's similar to post image. The difference is that you won't have a sidebar.
+________
 
- 4. **Post Video** — the first video found will move to the top of the page. you can add the internal tag `#video` in your post so that you can see the image icon in the instories and filter related video to show below the video at the top of the page.
-    - vimeo
-    - Dailymotion
-    - Youtube
-    - Twitch
-    - kickstarter
+# PRO version
 
-> Add video where convenient. When you change the theme you will not have problems and not have Problem in your AMP Template
-
-![Post Format](./documentation/post-format-2.jpg)
-
-![Post Format](./documentation/post-format-3.jpg)
-
-## Tags Page
-
-> A page will be displayed with all tags sorted from highest to lowest number of articles.
-
-- To create the tags page you just have to create a new page
-- Choose your favorite url and title
-- Select the `Archive Tags` template from the Template dropdown
-- Publish the page
-- To add the page to the navigation
-
-![Tag Archive](./documentation/tag-archive.jpg)
-
-## Newsletter Page
-
-- To create the Newsletter page you just have to create a new page
-- Choose your favorite url and title
-- Select the `Archive Newsletter` template from the Template dropdown
-- Write the list as normal in your content
-- To have the **Mailchimp** form copy the code and add an `HTML` section in Ghost then change the form action url.
-
-Example: `<form action="https://ninja.us10.list-manage.com/subscribe/post?u=5c52d5a541f6ab2e8d6020e82&id=f5f6d462c4">`
-
-```html
-<!-- <godo-nesletter> Mailchimp -->
-<div class="godo-ne">
-  <!-- Replace => Action -->
-  <form id="godo-form" class="godo-ne-form" action="YOUR_URL_OF_LIST_Mailchimp" method="get">
-      <label for="fieldEmail">Email Address</label>
-      <div class="godo-ne-form-group">
-        <input id="fieldEmail" class="godo-ne-input" name="EMAIL" type="email" placeholder="yourname@example.com" required="">
-        <button class="godo-ne-button button" type="submit">Subscribe</button>
-      </div>
-      <small>No marketing campaigns. No jibber jabber. Unsubscribe anytime.</small>
-  </form>
-  <div class="godo-ne-success u-hide">
-    <h3>✉️ Nice! Please check your email</h3>
-    <p>Click on the link in your inbox to confirm your subscription</p>
-  </div>
-</div>
-```
-
-- **Testimonies** Copy the code and paste into an `HTML` section in Ghost
-
-```html
-<div class="godo-n-q">
-
-  <div class="godo-n-q-i">
-    <img src="https://blog.ghost.org/content/images/2018/04/tim.jpeg">
-    <h3>Tim Cook</h3>
-    <div class="godo-n-q-d">CEO, Apple</div>
-    <blockquote>"This is a pretty fantastic newsletter tbh, I definitely recommend it"</blockquote>
-  </div>
-
-  <div class="godo-n-q-i u-hide-before-md">
-    <img src="https://blog.ghost.org/content/images/2018/04/satya.jpg">
-    <h3>Satya Nadella</h3>
-    <div class="godo-n-q-d">CEO, Microsoft</div>
-    <blockquote>"Finally, this newsletter is something we can really agree on"</blockquote>
-  </div>
-
-  <div class="godo-n-q-i u-hide-before-md">
-    <img src="https://blog.ghost.org/content/images/2018/04/gravatar-j8.jpg">
-    <h3>John O'Nolan</h3>
-    <div class="godo-n-q-d">CEO, Ghost</div>
-    <blockquote>"I should really get around to organising some quotes one of these days"</blockquote>
-  </div>
-
-</div>
-```
-
-- Publish the page
-- To add the page to the navigation
-
-![ghost nesletter](./documentation/newsletter.jpg)
-
-## Podcast Page
-
-- To create the Podcast Page you just have to create a new page
-- Choose your favorite title
-- Use the url `podcast`
-- In your articles use the internal tags `#podcast`
-- First back up your routes in your ghost settings `Labs -> Routes -> Download current routes.yml`
-- Re-download the Route and edit `routes.yml` line `routes`
-
-```yaml
-routes:
-  /podcast/:
-    controller: channel
-    filter: tag:[hash-podcast]
-    data:
-      post: page.podcast
-    limit: 10
-    template: godo-podcast
-```
-
-- In an `HTML` block in your ghost editor add this code for your content.
-
-```html
-<p class="spc-h-e">The Podcast</p>
-
-<p class="spc-des">Updates and behind the scenes stories about the world of Ghost. Hosted by Ghost founders <em>John O'Nolan</em> &amp; <em>Hannah Wolfe</em>.</p>
-
-<div class="spc-buttons">
-
-    <a href="https://itunes.apple.com/">
-    <img src="/assets/images/icon-itunes.png" alt="iTunes Logo" rel="presentation"/>
-    <span>iTunes</span>
-  </a>
-
-  <a href="https://www.pocketcasts.com/">
-    <img src="/assets/images/icon-pocketcasts.png" alt="Pocket Casts Logo" rel="presentation"/>
-    <span>Pocket Casts</span>
-  </a>
-
-  <a href="https://anchor.fm/">
-    <img src="/assets/images/icon-rss.png" style="height:15px" alt="RSS Icon" rel="presentation"/>
-    <span>RSS</span>
-  </a>
-
-</div>
-```
-
-![Tag Archive](./documentation/podcast.jpg)
-
-## Ads
-
-Mapache has sections to add your ads.
-
-You have to enter the following directory `partials/ad` and add in each file your ad blocks.
-
-```bash
-./partials/ad
-├── ad-post-footer.hbs
-├── ad-post-header.hbs
-├── ad-sidebar-medium.hbs
-├── ad-author-tag-footer.hbs
-├── ad-author-tag.hbs
-├── ad-home-top.hbs
-└── ad-home-footer.hbs
-```
-
-— It is important to add the following style in your ghost settings. in the section `Code injection -> Blog Header`
-
-```html
-<style>.mapache-ad-author-tag-top,.mapache-ad-home-top,.mapache-ad-post-footer{margin-bottom:30px}.mapache-ad-author-tag-top,.mapache-ad-author-tag-footer,.mapache-ad-home-footer,.mapache-ad-post-header{margin-top:30px}</style>
-```
-
-## Change Theme Color
-
-> It is very easy to customize with your favorite colors.
-
-![ghost themes colors](./documentation/themes.jpg)
-
-To change the color of the Mapache theme select one of the theme styles below and copy it into the:
-
-`Setting -> Code Injection -> Blog Header`
-
-```html
-<!-- 1.- Theme Mapache Deep Orange -->
-<style>:root{--primary-color:#d25704;--header-logo-color:#fff;--header-bg-color:#d25704;--header-color:#ffc79e;--header-menu-color:#ffc79e;--header-menu-color-hover:#fff4de;--header-color-hover:#fff4de;--header-color-divider:rgba(234,233,233,0.34);--footer-color-link:#d25704;--media-type-color:rgba(243,137,59,0.86);--composite-color:#007d85;--podcast-button-color:#f06e17;--newsletter-color:#d25704;--newsletter-bg-color:rgba(210,87,4,0.6)}</style>
-
-<!-- 2.-Theme Mapache Blue Dark -->
-<style>:root{--primary-color:#1e3757;--header-logo-color:#fff;--header-bg-color:#1e3757;--header-menu-color:#c1cbdb;--header-menu-color-hover:#fcffff;--header-color-divider:#687fa5;--header-color:#c1cbdb;--header-color-hover:#fcffff;--footer-color-link:#c1cbdb;--composite-color:#007d85;--newsletter-color:#1e3757;--newsletter-bg-color:rgba(30,55,87,0.6)}</style>
-
-<!-- 3.-Theme Mapache Red -->
-<style>:root{--primary-color:#c43235;--header-logo-color:#fff;--header-bg-color:#c43235;--header-menu-color:#ffbbb4;--header-menu-color-hover:#fff0ec;--header-color-divider:#e6867c;--header-color:#ffbbb4;--header-color-hover:#fff0ec;--footer-color-link:#b56566;--composite-color:#ff5b5e;--podcast-button-color:#c43235;--newsletter-color:#c43235;--newsletter-bg-color:rgba(196,50,53,0.6)}</style>
-
-<!-- 4.-Theme Mapache Blue -->
-<style>:root{--primary-color:#0273d4;--header-logo-color:#fff;--header-bg-color:#0273d4;--header-menu-color:#ddecfa;--header-menu-color-hover:#fff;--header-color-divider:#699bca;--header-color:#ddecfa;--header-color-hover:#fff;--footer-color-link:rgba(164,209,248,0.8);--composite-color:#ff5b5e;--podcast-button-color:#2ecc71;--newsletter-color:#0273d4;--newsletter-bg-color:rgba(2,115,212,0.6)}</style>
-
-<!-- 5.-Theme Mapache Bluen Semi Dark -->
-<style>:root{--primary-color:#01579b;--header-logo-color:#fff;--header-bg-color:#01579b;--header-menu-color:#ddecfa;--header-menu-color-hover:#fff;--header-color-divider:#4a77a2;--header-color:#ddecfa;--header-color-hover:#fff;--footer-color-link:rgba(164,209,248,0.8);--composite-color:#ff5b5e;--podcast-button-color:#2ecc71;--newsletter-color:#01579b;--newsletter-bg-color:rgba(2,115,212,0.6)}</style>
-
-<!-- 6.-Theme Mapache Black -->
-<style>:root{--primary-color:#000;--header-logo-color:#fff;--header-bg-color:#000;--header-menu-color:hsla(0,0%,100%,0.9);--header-menu-color-hover:#fff;--header-color-divider:#717171;--header-color:hsla(0,0%,100%,0.9);--header-color-hover:#fff;--footer-color-link:hsla(0,0%,100%,0.8);--composite-color:rgba(0,0,0,0.54);--podcast-button-color:#2ecc71;--newsletter-color:rgba(0,0,0,0.84);--newsletter-bg-color:#b1aeae}</style>
-```
-
-**➡ If you don't like the colors above, then play with your favorite colors. Just change the colors in the following code**
-
-```html
-<style>
-:root {
-  --primary-color:#d25704;
-  --header-logo-color:#fff;
-  --header-bg-color:#d25704;
-  --header-color:#ffc79e;
-  --header-menu-color:#ffc79e;
-  --header-menu-color-hover:#fff4de;
-  --header-color-hover:#fff4de;
-  --header-color-divider:rgba(234, 233, 233, 0.34);
-  --footer-color-link:#d25704;
-  --media-type-color:rgba(243,137,59,0.86);
-  --composite-color:#007d85;
-  --podcast-button-color:#f06e17;
-  --newsletter-color:#d25704;
-  --newsletter-bg-color:rgba(210,87,4,0.6)
-}
-</style>
-```
-
-### PrismJS code syntax
-
-> It is very important to add your code in the block of `Markdown`
-
-Make your code stand out. WIth the PrismJS code highlighter. PrismJS allows you to select which languge you embeded and performs code highlighting according to the language. Neat!
-
-Take a look at the [Prismjs Supported Language List](http://prismjs.com/#languages-list) to find your coding language.
-
-![Prism JS](./documentation/primsjs.jpg)
-
-### Credits
-
-- [Hodor AMP](https://github.com/godofredoninja/Hodor-AMP-Ghost)
-- [Normalize](https://necolas.github.io/normalize.css/)
-- [Ghost Search](https://github.com/HauntedThemes/ghost-search)
-- [Fuzzysort](https://github.com/farzher/fuzzysort)
-- [Prismjs](http://prismjs.com/)
-- [Theia Sticky Sidebar](https://github.com/WeCodePixels/theia-sticky-sidebar)
-- [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js/)
-- [Lazysizes](https://github.com/aFarkas/lazysizes)
-- [Fonts](https://fonts.googleapis.com/css?family=Merriweather:300i,400,700|Roboto|Roboto+Mono:300i,400,500,700)
-- [Safari Light - Mockup](https://www.uplabs.com/posts/safari-light-version)
-
-## Copyright & License
-
-Copyright (c) 2017 GodoFredoNinja - Released under the [CC BY-NC-SA 4.0](LICENSE).
+ - [Material Design for Bootstrap PRO](https://mdbootstrap.com/products/jquery-ui-kit/)
